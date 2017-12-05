@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity
             Fragment fragment = new GalleryFragment();
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();
+            
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
